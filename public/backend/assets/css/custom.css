@@ -1,0 +1,127 @@
+hr {
+    border-top: 1px solid rgb(225, 232, 237);
+}
+
+.note-editor.note-frame {
+    border-color: #e1e8ed;
+    background: transparent;
+}
+
+.note-editor.note-frame .note-editing-area .note-editable {
+    background: transparent;
+    color: #a5a8ad;
+}
+
+.note-editor.note-frame .note-statusbar {
+    background-color: transparent;
+}
+
+.panel-heading {
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.dd3-content {
+    display: block;
+    margin-bottom: 14px;
+    padding: 16px 12px 16px 40px;
+    text-decoration: none;
+    /* border: 1px solid #d6d2d2; */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #f1f4f6;
+    cursor: default;
+    font-size: 14px;
+    color: #77797c;
+}
+
+.dd3-handle {
+    top: 8px;
+}
+
+.dd3-item > button {
+    margin-top: 15px;
+}
+
+.dd3-content span.content-right {
+    float: right;
+    margin-top: -5px;
+}
+
+.theme-cyan .sidebar-nav .metismenu > li ul .active a {
+    color: #393d42;
+    font-weight: 100;
+}
+
+i.fd {
+    font-size: 20px;
+}
+
+.mymetismenu > li ul .active a {
+    padding-left: 190px;
+}
+
+.metismenu ul ul ul a {
+    padding: 10px 15px 10px 90px;
+}
+
+.light_version .table tr td, .light_version .table tr th {
+    border-color: #e1e8ed;
+    background: #fff;
+}
+
+.theme-cyan .sidebar-nav .metismenu > li.active > a {
+    color: #0099ae;
+}
+.theme-cyan .sidebar-nav .metismenu>li.active>a i {
+    background: #0099ae;
+    color: #fff;
+}
+.breadcrumb-item + .breadcrumb-item::before {
+
+    content: "➤";
+    color: #b8b8b8;
+
+}
+
+
+.panel-heading{
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
+
+.light_version .form-control,
+.light_version .custom-select, 
+.light_version .input-group-prepend .input-group-text, 
+.light_version .input-group-append .input-group-text,
+.note-editor.note-frame {
+    border-color: #c6daea;
+}
+
+::-webkit-input-placeholder { /* Edge */
+  color: #b8bbbf !important;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #b8bbbf !important;
+}
+
+::placeholder {
+  color: #b8bbbf !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before{
+    content: "➤";
+    color: #b8b8b8;
+}
+
+.dropdown-menu > li > a, .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #212529;
+}
+
+.dropdown-menu > li.disabled{
+    color: red;
+}

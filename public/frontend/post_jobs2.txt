@@ -1,0 +1,79 @@
+PUT : https://worknepali.com/api/v1/post-jobs
+========================================================================================
+
+request data sample as below
+
+{
+      "user_id" : 5,                            // use 5 for test user id
+      "job_title": "Web Developer",       
+      "job_category_id": "4",
+      "skill_ids": "["13","14","15","16"]",
+      "no_of_vacancy": 4,
+      "job_level": "1",
+      "employment_type": "1",
+      "deadline": "2020-07-03",                 // deadline must be 2 weeks from now
+      "location_id": "1",                       
+      "salary_type": 1,
+      "min_salary": "25000",
+      "max_salary": "120000",
+      "education_level": 3,
+      "experience_type": 3,
+      "experience_year": "1",
+      "job_description": "<p>Job Description Details</p>",
+      "benefits": "<p>Job Benefit Details</p>"
+}
+
+========================================================================================
+
+PUT : https://worknepali.com/api/v1/employer/company-info/update
+
+{
+    "id": 1,
+    "user_id": 5,
+    "organization_name": "G Technology Ltd.",
+    "email": "tanisha.franklin@gmail.com",            
+    "address": "Sydney, Australia",
+    "phone": "9800112233",
+    "category_id": "1",                                     // job_categories ID
+    "ownership_type": "2",
+    "organization_size": "2",
+    "website": "https://www.ktmrush.com/",
+    "cp_name": "John Doe",
+    "cp_email": "rockstar.gehendra19@gmail.com",
+    "cp_designation": "CEO",
+    "cp_contact": "9801374870",
+    "about": "<p>Encoded String</p>",
+    "image" : "<base64_encoded image string>"
+}
+
+=========================================================================================
+
+GET : https://worknepali.com/api/v1/edit-posted-jobs/{id}
+
+=========================================================================================
+
+PUT : https://worknepali.com/api/v1/update-posted-jobs
+
+{
+      "id" : 17                                 // job_id
+      "user_id" : 5,                            // use 5 for test user id
+      "job_title": "Web Developer",       
+      "job_category_id": "4",
+      "skill_ids": "["13","14","15","16"]",
+      "no_of_vacancy": 4,
+      "job_level": "1",
+      "employment_type": "1",
+      "deadline": "2020-07-03",                 // deadline must be 2 weeks from now
+      "location_id": "1",                       
+      "salary_type": 1,
+      "min_salary": "25000",
+      "max_salary": "120000",
+      "education_level": 3,
+      "experience_type": 3,
+      "experience_year": "1",
+      "job_description": "<p>Job Description Details</p>",
+      "benefits": "<p>Job Benefit Details</p>"
+}
+
+=========================================================================================
+

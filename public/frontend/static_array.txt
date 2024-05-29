@@ -1,0 +1,29 @@
+$job_levels = array('1' => 'Top Level',
+					 '2' => 'Senior Level',
+					 '3' => 'Mid Level' ,
+					 '4' => 'Entry Level');
+
+$employment_types = array('1' => 'Full Time',
+					 '2' => 'Part Time',
+					 '3' => 'Contract',
+					 '4' => 'Freelance',
+					 '5' => 'Internship',
+					 '6' => 'Traineeship',
+					 '7' => 'Volunteer');
+
+$salary_types = array('1' => 'Range',
+					 '2' => 'Fixed',
+					 '3' => 'Negotiable');
+
+$education_levels = array('1' => 'Others',
+					 '2' => 'SLC',
+					 '3' => 'Intermediate' ,
+					 '4' => 'Bachelor',
+					 '5' => 'Master',
+					 '6' => 'Ph.D.');
+					 
+$experience_types = array('1' => 'More than',
+					 '2' => 'Less than',
+					 '3' => 'More than or equals to' ,
+					 '4' => 'Less than or equals to',
+					 '5' => 'Equals to');

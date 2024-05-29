@@ -1,0 +1,670 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Settings</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    
+    <!-- App favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.png">
+    
+    <!-- App css -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.css" rel="stylesheet" />
+    <link href="assets/libs/select2/select2.min.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/multiselect/multi-select.css" rel="stylesheet" type="text/css" />
+    <link href="assets/libs/flatpickr/flatpickr.min.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="assets/css/custom.css">
+    
+</head>
+
+<body>
+    
+    <!-- Begin page -->
+    <div id="wrapper">
+        
+        <!-- Topbar Start -->
+        <div class="navbar navbar-expand flex-column flex-md-row navbar-custom">
+            <div class="container-fluid">
+                <!-- LOGO -->
+                <a href="index.html" class="navbar-brand mr-0 mr-md-2 logo">
+                    <span class="logo-lg">
+                        <img src="assets/images/logo.png" alt="" height="48" />
+                        <span class="d-inline h5 ml-1 text-logo">work nepali</span>
+                    </span>
+                    <span class="logo-sm">
+                        <img src="assets/images/logo.png" alt="" height="48" />
+                    </span>
+                </a>
+                
+                <ul class="navbar-nav bd-navbar-nav flex-row list-unstyled menu-left mb-0">
+                    <li class="">
+                        <button class="button-menu-mobile open-left disable-btn">
+                            <i data-feather="menu" class="menu-icon"></i>
+                            <i data-feather="x" class="close-icon"></i>
+                        </button>
+                    </li>
+                </ul>
+                
+                <ul class="navbar-nav flex-row ml-auto d-flex list-unstyled topnav-menu float-right mb-0">
+                    <li class="nav-item mx-lg-1">
+                        <a class="nav-link text-dark link-demos" href="#demos" id="link-demos">Jobs</a>
+                    </li>
+                    <li class="nav-item mx-lg-1">
+                        <a class="nav-link text-dark link-demos" href="#demos" id="link-demos">Help</a>
+                    </li>
+                    <li class="d-none d-sm-block">
+                        <div class="app-search">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span data-feather="search"></span>
+                                </div>
+                            </form>
+                        </div>
+                    </li>
+                    
+                    <li class="dropdown d-none d-lg-block" data-toggle="tooltip" data-placement="left" title="Change language">
+                        <a class="nav-link dropdown-toggle mr-0" data-toggle="dropdown" href="#" role="button"
+                        aria-haspopup="false" aria-expanded="false">
+                        <i data-feather="globe"></i>
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="assets/images/flags/germany.jpg" alt="user-image" class="mr-2" height="12"> <span
+                            class="align-middle">German</span>
+                        </a>
+                        
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="assets/images/flags/italy.jpg" alt="user-image" class="mr-2" height="12"> <span
+                            class="align-middle">Italian</span>
+                        </a>
+                        
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="assets/images/flags/spain.jpg" alt="user-image" class="mr-2" height="12"> <span
+                            class="align-middle">Spanish</span>
+                        </a>
+                        
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item">
+                            <img src="assets/images/flags/russia.jpg" alt="user-image" class="mr-2" height="12"> <span
+                            class="align-middle">Russian</span>
+                        </a>
+                    </div>
+                </li>
+                
+                
+                <li class="dropdown notification-list" data-toggle="tooltip" data-placement="left"
+                title="8 new unread notifications">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="false"
+                aria-expanded="false">
+                <i data-feather="bell"></i>
+                <span class="noti-icon-badge"></span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-right dropdown-lg">
+                
+                <!-- item-->
+                <div class="dropdown-item noti-title border-bottom">
+                    <h5 class="m-0 font-size-16">
+                        <span class="float-right">
+                            <a href="" class="text-dark">
+                                <small>Clear All</small>
+                            </a>
+                        </span>Notification
+                    </h5>
+                </div>
+                
+                <div class="slimscroll noti-scroll">
+                    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
+                        <div class="notify-icon bg-primary"><i class="uil uil-user-plus"></i></div>
+                        <p class="notify-details">New user registered.<small class="text-muted">5 hours ago</small>
+                        </p>
+                    </a>
+                    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
+                        <div class="notify-icon">
+                            <img src="assets/images/users/avatar-1.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <p class="notify-details">Karen Robinson</p>
+                        <p class="text-muted mb-0 user-msg">
+                            <small>Wow ! this admin looks good and awesome design</small>
+                        </p>
+                    </a>
+                    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
+                        <div class="notify-icon">
+                            <img src="assets/images/users/avatar-2.jpg" class="img-fluid rounded-circle" alt="" />
+                        </div>
+                        <p class="notify-details">Cristina Pride</p>
+                        <p class="text-muted mb-0 user-msg">
+                            <small>Hi, How are you? What about our next meeting</small>
+                        </p>
+                    </a>
+                    
+                    <!-- item-->
+                    <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom active">
+                        <div class="notify-icon bg-success"><i class="uil uil-comment-message"></i> </div>
+                        <p class="notify-details">Jaclyn Brunswick commented on Dashboard<small class="text-muted">1
+                            min
+                            ago</small></p>
+                        </a>
+                        
+                        <!-- item-->
+                        <a href="javascript:void(0);" class="dropdown-item notify-item border-bottom">
+                            <div class="notify-icon bg-danger"><i class="uil uil-comment-message"></i></div>
+                            <p class="notify-details">Caleb Flakelar commented on Admin<small class="text-muted">4 days
+                                ago</small></p>
+                            </a>
+                            
+                            <!-- item-->
+                            <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                <div class="notify-icon bg-primary">
+                                    <i class="uil uil-heart"></i>
+                                </div>
+                                <p class="notify-details">Carlos Crouch liked
+                                    <b>Admin</b>
+                                    <small class="text-muted">13 days ago</small>
+                                </p>
+                            </a>
+                        </div>
+                        
+                        <!-- All-->
+                        <a href="javascript:void(0);"
+                        class="dropdown-item text-center text-primary notify-item notify-all border-top">
+                        View all
+                        <i class="fi-arrow-right"></i>
+                    </a>
+                    
+                </div>
+            </li>
+            
+            <li class="dropdown notification-list" data-toggle="tooltip" data-placement="left" title="Settings">
+                <a href="javascript:void(0);" class="nav-link right-bar-toggle">
+                    <i data-feather="settings"></i>
+                </a>
+            </li>
+            
+            <li class="dropdown notification-list align-self-center profile-dropdown">
+                <a class="nav-link dropdown-toggle nav-user mr-0" data-toggle="dropdown" href="#" role="button"
+                aria-haspopup="false" aria-expanded="false">
+                <div class="media user-profile ">
+                    <img src="assets/images/users/avatar-7.jpg" alt="user-image" class="rounded-circle align-self-center" />
+                    <div class="media-body text-left">
+                        <h6 class="pro-user-name ml-2 my-0">
+                            <span>Shreyu N</span>
+                            <span class="pro-user-desc text-muted d-block mt-1">Administrator </span>
+                        </h6>
+                    </div>
+                    <span data-feather="chevron-down" class="ml-2 align-self-center"></span>
+                </div>
+            </a>
+            <div class="dropdown-menu profile-dropdown-items dropdown-menu-right">
+                <a href="pages-profile.html" class="dropdown-item notify-item">
+                    <i data-feather="user" class="icon-dual icon-xs mr-2"></i>
+                    <span>My Account</span>
+                </a>
+                
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i data-feather="settings" class="icon-dual icon-xs mr-2"></i>
+                    <span>Settings</span>
+                </a>
+                
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i data-feather="help-circle" class="icon-dual icon-xs mr-2"></i>
+                    <span>Support</span>
+                </a>
+                
+                <a href="pages-lock-screen.html" class="dropdown-item notify-item">
+                    <i data-feather="lock" class="icon-dual icon-xs mr-2"></i>
+                    <span>Lock Screen</span>
+                </a>
+                
+                <div class="dropdown-divider"></div>
+                
+                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                    <i data-feather="log-out" class="icon-dual icon-xs mr-2"></i>
+                    <span>Logout</span>
+                </a>
+            </div>
+        </li>
+    </ul>
+</div>
+
+</div>
+<!-- end Topbar -->
+
+<!-- ============================================================== -->
+<!-- Start Page Content here -->
+<!-- ============================================================== -->
+
+<div class="custom-content-page">
+    <div class="content">
+        <!-- Start Content-->
+        <div class="container-fluid">
+            <!-- Start row-->
+            
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="media">
+                                <img src="assets/images/users/avatar-7.jpg" class="avatar-lg rounded-circle mr-2" alt="shreyu">
+                                <div class="media-body">
+                                    <h5 class="mt-2 mb-0">Company Name</h5>
+                                    <h6 class="text-muted font-weight-normal mt-1 mb-4">New York, USA</h6>
+                                </div>
+                            </div>
+                            
+                            <div class="mt-1 pt-2 border-top text-left">
+                                <p class="text-muted mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum eaque reiciendis est earum, velit nemo repellendus consequatur, molestiae optio officia ut cumque excepturi iste doloribus ipsa assumenda quia consequuntur iure?</p>
+                            </div>
+                            
+                            <div class="row mt-5 text-center">
+                                <div class="col">
+                                    <button type="button" class="btn btn-primary btn-block mr-1">Apply For The Job</button>
+                                </div>
+                                <div class="col">
+                                    <button type="button" class="btn btn-white btn-block">View Profile</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl-12 col-lg-12">
+                            <div class="card border bg-light">
+                                <div class="card-body">
+                                    <div class="row">
+                                    <div class="col-sm-12">
+                                    <h5>
+                                        <a href="#" class="text-dark">Senior UX Designer</a>
+                                    </h5>
+                                    <div class="row mt-2 border-top pt-2">
+                                        <div class="col">
+                                            <div class="media">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                                <div class="media-body">
+                                                    <h5 class="mt-2 pt-1 mb-0 font-size-16">Organization Name</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="media">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                                <div class="media-body">
+                                                    <h5 class="mt-2 pt-1 mb-0 font-size-16">Location, kathmandu, nepal</h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row mt-2 border-top pt-2">
+                                        <div class="col">
+                                            <div class="media">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                                <div class="media-body">
+                                                    <h5 class="mt-2 pt-1 mb-0 font-size-16">Posted On</h5>
+                                                    <h6 class="font-weight-normal mt-0">April 3, 2020</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="media">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                                <div class="media-body">
+                                                    <h5 class="mt-2 pt-1 mb-0 font-size-16">Salary</h5>
+                                                    <h6 class="font-weight-normal mt-0">Negotiable</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="media">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text icon-dual align-self-center mr-2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                                <div class="media-body">
+                                                    <h5 class="mt-2 pt-1 mb-0 font-size-16">Experience</h5>
+                                                    <h6 class="font-weight-normal mt-0">2 + years</h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p>Key Skills: 
+                                        <span class="badge badge-soft-secondary">HTML</span>&nbsp;
+                                        <span class="badge badge-soft-secondary">CSS</span>&nbsp;
+                                        <span class="badge badge-soft-secondary">SASS</span>&nbsp;
+                                        <span class="badge badge-soft-secondary">Javascript</span>&nbsp;
+                                    </p>
+                                    </div>
+                                </div>
+                                    
+                                </div>
+                              
+                            </div>
+                            <!-- end card -->
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title mt-0 mb-1">Desired Candidate Profile</h4>
+                                    <div class="table-responsive">
+                                        <table class="table mb-0">
+                                            <tbody>
+                                                <tr>
+                                                <td>Qualifications Required</td>
+                                                <td><strong>B.B.A (Marketing Management/Other/Management) <br>
+
+                                                    B.B.S (Accountancy/Finance/Marketing Management/General Management/Other)</strong></td>
+                                                </tr>
+                                                <tr>
+                                                <td>Preferred Age Range</td>
+                                                <td>20 - 35 years</td>
+                                                </tr>
+                                                <tr>
+                                                <td>Preffered Gender</td>
+                                                <td>None</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Job Details</h4>
+                                    <hr>
+                                    <br>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque molestias itaque, dolore id laboriosam hic unde. Aperiam dolorum odit officia maiores voluptatem eos repudiandae illum, dolorem praesentium iure nihil. Libero consequuntur cupiditate atque, eligendi ipsa rem provident quidem illum, cumque aliquam quos laborum facilis alias ex quibusdam deleniti aliquid totam, excepturi molestiae dolores eaque perspiciatis.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4>Job Benefits</h4>
+                                    <hr>
+                                    <br>
+                                    <ul>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sunt unde quo.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <h5>Similar Jobs</h5>
+                    <hr>
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="card border">
+                            <div class="card-body">
+                                <div class="row">
+                                <div class="col-sm-12">
+                                <h5>
+                                    <a href="#" class="text-dark">Senior UX Designer</a>
+                                </h5>
+                                <div class="row mt-2 border-top pt-2">
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Organization Name</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Location, kathmandu, nepal</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2 border-top pt-2">
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Posted On</h5>
+                                                <h6 class="font-weight-normal mt-0">April 3, 2020</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Salary</h5>
+                                                <h6 class="font-weight-normal mt-0">Negotiable</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text icon-dual align-self-center mr-2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Experience</h5>
+                                                <h6 class="font-weight-normal mt-0">2 + years</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Key Skills: 
+                                    <span class="badge badge-soft-secondary">HTML</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">CSS</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">SASS</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">Javascript</span>&nbsp;
+                                </p>
+                                </div>
+                            </div>
+                                
+                            </div>
+                          
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="card border">
+                            <div class="card-body">
+                                <div class="row">
+                                <div class="col-sm-12">
+                                <h5>
+                                    <a href="#" class="text-dark">Senior UX Designer</a>
+                                </h5>
+                                <div class="row mt-2 border-top pt-2">
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Organization Name</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Location, kathmandu, nepal</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2 border-top pt-2">
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Posted On</h5>
+                                                <h6 class="font-weight-normal mt-0">April 3, 2020</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Salary</h5>
+                                                <h6 class="font-weight-normal mt-0">Negotiable</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text icon-dual align-self-center mr-2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Experience</h5>
+                                                <h6 class="font-weight-normal mt-0">2 + years</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Key Skills: 
+                                    <span class="badge badge-soft-secondary">HTML</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">CSS</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">SASS</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">Javascript</span>&nbsp;
+                                </p>
+                                </div>
+                            </div>
+                                
+                            </div>
+                          
+                        </div>
+                        <!-- end card -->
+                    </div>
+                    <div class="col-xl-12 col-lg-12">
+                        <div class="card border">
+                            <div class="card-body">
+                                <div class="row">
+                                <div class="col-sm-12">
+                                <h5>
+                                    <a href="#" class="text-dark">Senior UX Designer</a>
+                                </h5>
+                                <div class="row mt-2 border-top pt-2">
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Organization Name</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Location, kathmandu, nepal</h5>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row mt-2 border-top pt-2">
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users icon-dual align-self-center mr-2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Posted On</h5>
+                                                <h6 class="font-weight-normal mt-0">April 3, 2020</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-eye icon-dual align-self-center mr-2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path><circle cx="12" cy="12" r="3"></circle></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Salary</h5>
+                                                <h6 class="font-weight-normal mt-0">Negotiable</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <div class="media">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text icon-dual align-self-center mr-2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                            <div class="media-body">
+                                                <h5 class="mt-2 pt-1 mb-0 font-size-14">Experience</h5>
+                                                <h6 class="font-weight-normal mt-0">2 + years</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p>Key Skills: 
+                                    <span class="badge badge-soft-secondary">HTML</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">CSS</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">SASS</span>&nbsp;
+                                    <span class="badge badge-soft-secondary">Javascript</span>&nbsp;
+                                </p>
+                                </div>
+                            </div>
+                                
+                            </div>
+                          
+                        </div>
+                        <!-- end card -->
+                    </div>
+                   
+                </div>
+            </div>
+            <!-- end row -->
+            
+        </div> <!-- container-fluid -->
+        
+    </div> <!-- content -->
+    
+    
+    
+    <!-- Footer Start -->
+    <footer class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    2019 &copy; Shreyu. All Rights Reserved. Crafted with <i class='uil uil-heart text-danger font-size-12'></i> by <a href="https://coderthemes.com" target="_blank">Coderthemes</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end Footer -->
+    
+</div>
+
+<!-- ============================================================== -->
+<!-- End Page content -->
+<!-- ============================================================== -->
+
+
+</div>
+<!-- END wrapper -->
+
+<!-- Vendor js -->
+<script src="assets/js/vendor.min.js"></script>
+
+<script src="assets/libs/bootstrap-tagsinput/bootstrap-tagsinput.min.js"></script>
+<script src="assets/libs/select2/select2.min.js"></script>
+<script src="assets/libs/multiselect/jquery.multi-select.js"></script>
+<!-- Init js-->
+<script src="assets/js/pages/form-advanced.init.js"></script>
+
+<!-- App js -->
+<script src="assets/js/app.min.js"></script>
+
+</body>
+</html>

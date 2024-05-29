@@ -1,0 +1,14 @@
+POST : https://worknepali.com/api/v1/jobseeker/apply-job
+
+{
+    "job_id": 1,
+    "employer_id":5,
+    "jobseeker_id":4
+}
+
+POST : https://worknepali.com/api/v1/jobseeker/add-to-watchlist
+
+{
+    "job_id": 1,
+    "jobseeker_id":4
+}

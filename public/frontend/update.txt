@@ -1,0 +1,12 @@
+1. Employers and soletraders in single api, "role" field can be used as flag 
+	
+	url : http://127.0.0.1:8000/api/v1/employers
+
+	role = 3 => sole traders
+	role = 4 => company
+
+2. benefits field added in jobs table
+
+4. jobs image url 
+	"https://worknepali.ktmrush.com/storage/jobs/thumbs/large_".$job->image;
+	"https://worknepali.ktmrush.com/storage/jobs/thumbs/small_".$job->image;

@@ -1,0 +1,54 @@
+https://worknepali.ktmrush.com/api/v1/jobs/all
+https://worknepali.ktmrush.com/api/v1/jobs/featured
+https://worknepali.ktmrush.com/api/v1/jobs/popular
+https://worknepali.ktmrush.com/api/v1/jobs/hot
+https://worknepali.ktmrush.com/api/v1/jobs/recent
+
+// job details
+https://worknepali.ktmrush.com/api/v1/job-details/{id} 
+
+// jobseekers list
+https://worknepali.ktmrush.com/api/v1/jobseekers
+
+// single jobseekers details with id
+https://worknepali.ktmrush.com/api/v1/jobseeker/{id}
+
+// single jobseekers specific field details with id  
+https://worknepali.ktmrush.com/api/v1/jobseeker/{id}/d/education
+https://worknepali.ktmrush.com/api/v1/jobseeker/{id}/d/training
+https://worknepali.ktmrush.com/api/v1/jobseeker/{id}/d/experience
+https://worknepali.ktmrush.com/api/v1/jobseeker/{id}/d/job-preference
+
+// employers list of company and sole-traders types
+https://worknepali.ktmrush.com/api/v1/employers/company
+https://worknepali.ktmrush.com/api/v1/employers/sole-traders
+
+// single employer detail with id
+https://worknepali.ktmrush.com/api/v1/employer/{id}
+
+// single employer company info with id 
+https://worknepali.ktmrush.com/api/v1/employer/{id}/company-info           
+
+// job categories list
+https://worknepali.ktmrush.com/api/v1/job-categories
+
+// single job category details
+https://worknepali.ktmrush.com/api/v1/job-category-details/{id}
+
+// skills list
+https://worknepali.ktmrush.com/api/v1/skills         
+
+// single skill details
+https://worknepali.ktmrush.com/api/v1/skill-details/{id}
+
+// locations list
+https://worknepali.ktmrush.com/api/v1/locations      
+
+// single location details with id
+https://worknepali.ktmrush.com/api/v1/location-details/{id}
+
+// jobs list of specific location with id
+https://worknepali.ktmrush.com/api/v1/location-jobs/{id}
+
+// setting details
+https://worknepali.ktmrush.com/api/v1/settings       

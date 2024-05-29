@@ -1,0 +1,43 @@
+============================================================================================
+		USER LOGIN
+		------------------------------------
+
+		https://worknepali.com/api/v1/login
+
+		body(raw) => with bearer token
+
+		{
+		    "email" : "test.user@gmail.com",
+		    "password" : "test123",
+		    "role" : '2'
+		}
+
+============================================================================================
+		USER REGISTER
+		-----------------------
+		https://worknepali.com/api/v1/register
+
+		body(raw) =>
+
+		{
+		    "name" : "Test User",
+		    "email" : "test.user@gmail.com",
+		    "password" : "test123",
+		    "password_confirmation" : "test123",
+		    "role" : 4			
+		}
+
+		======================================
+		==		role = 2 => Job Seeker		==
+		==		role = 3 => Sole Trader		==
+		==		role = 4 => Company			==
+		======================================
+
+============================================================================================
+		USER DETAIL 
+		----------------
+		https://worknepali.com/api/v1/user
+
+		body(raw) => with bearer token only
+
+============================================================================================

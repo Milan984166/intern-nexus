@@ -1,0 +1,169 @@
+{
+    "status": 200,
+    "message": "Job Details retrieved successfully!",
+    "data": {
+        "job": {
+            "id": 1,
+            "user_id": 5,
+            "job_title": "Web Developer",
+            "slug": "web-developer",
+            "job_category_id": "4",
+            "skill_ids": "[\"13\",\"14\",\"15\",\"16\"]",
+            "no_of_vacancy": 1,
+            "job_level": "1",
+            "employment_type": "2",
+            "deadline": "2020-07-03 00:00:00",
+            "location_id": "1",
+            "salary_type": 1,
+            "min_salary": "25000",
+            "max_salary": "120000",
+            "image": "1592387517.jpg",
+            "contact_email": null,
+            "contact_phone": null,
+            "messenger_link": null,
+            "viber_number": "9849507010",
+            "whatsapp_number": null,
+            "education_level": 3,
+            "experience_type": 3,
+            "experience_year": "1",
+            "job_description": "<p>We are looking for a PHP Developer responsible for managing back-end services and the interchange of data between the server and the users. Your primary focus will be the development of all server-side logic, definition and maintenance of the central database, and ensuring high performance and responsiveness to requests from the front-end. You will also be responsible for integrating the front-end elements built by your co-workers into the application. Therefore, a basic understanding of front-end technologies is necessary as well.</p>",
+            "benefits": "<ul>\r\n\t<li>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</li>\r\n\t<li>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>\r\n\t<li>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</li>\r\n\t<li>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</li>\r\n</ul>",
+            "display": 1,
+            "featured": 0,
+            "views": 28,
+            "applied": 1,
+            "created_at": "2020-06-17 09:51:57",
+            "updated_at": "2020-08-02 09:09:48",
+            "skill_titles": {
+                "13": "HTML",
+                "14": "CSS",
+                "15": "Laravel",
+                "16": "Javascript/jQuery"
+            },
+            "user": {
+                "id": 5,
+                "name": "G Technology Ltd.",
+                "email": "tanisha.franklin@gmail.com",
+                "email_verified_at": null,
+                "role": 4,
+                "status": 1,
+                "image": null,
+                "phone": "9800112233",
+                "current_address": "Sydney, Australia",
+                "permanent_address": "Berlin",
+                "gender": "2",
+                "dob": "1989-01-23",
+                "religion": "Christianity",
+                "maritial_status": "Married",
+                "nationality": "French"
+            },
+            "job_category": {
+                "id": 4,
+                "title": "Web Design & Development",
+                "slug": "web-design-development",
+                "display": 1,
+                "image": "1594228764.png",
+                "order_item": 3
+            },
+            "location": {
+                "id": 1,
+                "title": "Kathmandu",
+                "slug": "kathmandu",
+                "display": 1,
+                "order_item": 1
+            }
+        },
+        "skills": [
+            {
+                "id": 3,
+                "job_category_id": "1",
+                "title": "Business Development"
+            },
+            {
+                "id": 4,
+                "job_category_id": "2",
+                "title": "Photoshop"
+            },
+            {
+                "id": 5,
+                "job_category_id": "2",
+                "title": "Video Editing"
+            },
+            {
+                "id": 6,
+                "job_category_id": "2",
+                "title": "Banner Production"
+            },
+            {
+                "id": 7,
+                "job_category_id": "1",
+                "title": "Competetive Analysis"
+            },
+            {
+                "id": 8,
+                "job_category_id": "1",
+                "title": "Project Management"
+            },
+            {
+                "id": 9,
+                "job_category_id": "1",
+                "title": "Traning Management"
+            },
+            {
+                "id": 10,
+                "job_category_id": "3",
+                "title": "Traning & Development Management"
+            },
+            {
+                "id": 11,
+                "job_category_id": "3",
+                "title": "Employee Onboarding"
+            },
+            {
+                "id": 12,
+                "job_category_id": "3",
+                "title": "Site Analysis"
+            },
+            {
+                "id": 13,
+                "job_category_id": "4",
+                "title": "HTML"
+            },
+            {
+                "id": 14,
+                "job_category_id": "4",
+                "title": "CSS"
+            },
+            {
+                "id": 15,
+                "job_category_id": "4",
+                "title": "Laravel"
+            },
+            {
+                "id": 16,
+                "job_category_id": "4",
+                "title": "Javascript/jQuery"
+            },
+            {
+                "id": 17,
+                "job_category_id": "5",
+                "title": "Pharmaceutical Work"
+            },
+            {
+                "id": 18,
+                "job_category_id": "5",
+                "title": "Data Entry"
+            },
+            {
+                "id": 19,
+                "job_category_id": "5",
+                "title": "Customer Relationship Mangement"
+            },
+            {
+                "id": 20,
+                "job_category_id": "5",
+                "title": "Financial Forcasting"
+            }
+        ]
+    }
+}
